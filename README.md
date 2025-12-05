@@ -1,0 +1,42 @@
+# Log Monitoring Workflow
+
+## Overview
+Automated log monitoring and analysis workflow combining Bash scripting and Python. This project demonstrates systematic approaches to log collection, parsing, analysis, and alerting for security monitoring and compliance purposes.
+
+## Objectives
+- Develop automated log collection and aggregation
+- Create log parsing and analysis pipelines
+- Implement real-time alerting for security events
+- Generate compliance and audit reports
+- Enable rapid incident investigation capabilities
+
+## Methodology
+- Centralized log collection and storage
+- Log parsing and normalization
+- Event correlation and pattern detection
+- Alert rule development and tuning
+- Automated report generation
+- Integration with security monitoring systems
+
+## Key Findings
+- Effective log processing techniques
+- Common security event patterns
+- Alert tuning and false positive reduction
+- Log retention and compliance requirements
+- Performance optimization for large-scale deployments
+
+## Technologies Used
+- Bash scripting - Log processing automation
+- Python - Advanced parsing and analysis
+- Regular expressions - Log pattern matching
+- Text processing tools (grep, awk, sed)
+- Systemd/cron - Job scheduling
+- Log aggregation principles
+- SIEM concepts and practices
+
+## Files Included
+- [Log Monitoring Workflow.md](Log%20Monitoring%20Workflow.md) - Workflow documentation
+- [Log Monitoring Workflow.pdf](Log%20Monitoring%20Workflow.pdf) - Formatted report
+- [Log Monitoring Workflow.py](Log%20Monitoring%20Workflow.py) - Python implementation
+- [bashscript.sh](bashscript.sh) - Bash automation scripts
+- [log-monitoring-workflow.md](log-monitoring-workflow.md) - Extended documentation
