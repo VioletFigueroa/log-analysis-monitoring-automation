@@ -35,8 +35,8 @@ Automated log monitoring and analysis workflow combining Bash scripting and Pyth
 - SIEM concepts and practices
 
 ## Files Included
-- [Log Monitoring Workflow.md](Log%20Monitoring%20Workflow.md) - Workflow documentation
-- [Log Monitoring Workflow.pdf](Log%20Monitoring%20Workflow.pdf) - Formatted report
-- [Log Monitoring Workflow.py](Log%20Monitoring%20Workflow.py) - Python implementation
-- [bashscript.sh](bashscript.sh) - Bash automation scripts
-- [log-monitoring-workflow.md](log-monitoring-workflow.md) - Extended documentation
+- [Log Monitoring Workflow.md](Log%20Monitoring%20Workflow.md) - Workflow documentation in Markdown format
+- [Log Monitoring Workflow.pdf](Log%20Monitoring%20Workflow.pdf) - Formatted report in PDF for printing and sharing
+- [Log Monitoring Workflow.py](Log%20Monitoring%20Workflow.py) - Python implementation for log analysis and automation
+- [bashscript.sh](bashscript.sh) - Bash automation scripts for log processing
+- [log-monitoring-workflow.md](log-monitoring-workflow.md) - Extended documentation and implementation details
