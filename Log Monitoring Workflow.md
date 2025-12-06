@@ -1,7 +1,3 @@
----
-draft: true
-tags: ["project", "documentation"]
----
 
 
 # Log Monitoring Workflow
@@ -28,10 +24,11 @@ My name is Violet Figueroa, an Access Log Analyst at Turn a New Leaf. Using a co
 
 The Log Monitoring Workflow automates monitoring and analyzing logs from the Windows and Linux machines. The workflow begins with gathering logs from both systems, including authentication logs, system logs, and application logs. These logs are transferred to a shared folder accessible by both machines for centralized processing.
 
-![Crontab schedules the script to run each night on the Linux server.][image1]
+![Crontab schedules the script to run each night on the Linux server](./image1.png)
 **Figure 1:** The Crontab schedules the script to run each night on the Linux server.
 
 The Python script processes these logs alongside exported Windows Event Viewer logs. Using regex patterns, the Python script identifies suspicious activities, such as specific error codes (e.g., 0x80070005 for "Access Denied" on Windows) or equivalent error messages on Linux (e.g., "Authentication failure").
+
 If any anomalies are detected, the script sends an email alert to notify the manager. Additionally, the system generates a weekly report summarizing all detected issues and sends it via email. The goal is to detect unusual activities, such as failed login attempts or unauthorized access, and send alerts to the manager when such behavior is identified.
 
 ## Potential Iterations {#potential-iterations}
