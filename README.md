@@ -8,8 +8,21 @@
 
 ---
 
+**How to view artifacts:** Open `Log Monitoring Workflow.pdf` for the formatted report or `Log Monitoring Workflow.md` for quick skim; code lives in `Log Monitoring Workflow.py` and `bashscript.sh`.
+
+**Result snapshot:** Automated log collection + regex alerting reduced manual triage and produced weekly summaries for leadership.
+
+**Quick review:**
+- Docs: `Log Monitoring Workflow.pdf` → formatted findings
+- Evidence/code: `Log Monitoring Workflow.py`, `bashscript.sh`
+- Start with: `Log Monitoring Workflow.md` → flow overview and alert logic
+
 ## Overview
 Automated log monitoring and analysis workflow combining Bash scripting and Python. This project demonstrates systematic approaches to log collection, parsing, analysis, and alerting for security monitoring and compliance purposes.
+
+![Log monitoring workflow dashboard](./image1.png)
+
+**Data handling:** Demo logs are synthetic/redacted; no production credentials or PII are stored in this repo.
 
 ## Objectives
 - Develop automated log collection and aggregation
@@ -41,6 +54,10 @@ Automated log monitoring and analysis workflow combining Bash scripting and Pyth
 - Systemd/cron - Job scheduling
 - Log aggregation principles
 - SIEM concepts and practices
+
+## Lessons Learned
+- Regex tuning and log normalization cut false positives; lightweight alerts stayed actionable.
+- Clear separation of collection, parsing, and alerting made the workflow easy to extend to new log types.
 
 ## Files Included
 - [Log Monitoring Workflow.md](Log%20Monitoring%20Workflow.md) - Workflow documentation in Markdown format
